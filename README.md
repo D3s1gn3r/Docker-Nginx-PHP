@@ -10,3 +10,5 @@ Params:
 Telegram channel: https://t.me/test_yh_ch
 
 Discord server: https://discord.gg/qeDdzuM4
+
+Require to set up telegram and discord bot tokens(.env).

@@ -32,10 +32,10 @@ return [
     ],
 
     'telegram-bot-api' => [
-        'token' => env('TELEGRAM_BOT_TOKEN', '6846167770:AAEaxvUU2kAUJuhNECDRjqzO4EShd5QpIyY')
+        'token' => env('TELEGRAM_BOT_TOKEN')
     ],
 
     'discord' => [
-        'token' => env('DISCORD_BOT_TOKEN', 'MTE5NjE4MTYxMjIxMjI2NDk5MA.GtjqEN.Q7c3prmJOfUr0cl9hQliYTV6GDo4Eg5pMBCyrg')
+        'token' => env('DISCORD_BOT_TOKEN')
     ],
 ];

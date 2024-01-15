@@ -44,4 +44,5 @@ COPY ./supervisor/conf.d/supervisord.conf /etc/supervisor/conf.d/supervisord.con
 
 COPY ./php/run.sh /tmp
 
+RUN ["chmod", "+x", "/tmp/run.sh"]
 ENTRYPOINT ["/tmp/run.sh"]
